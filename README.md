@@ -16,4 +16,4 @@
 
 - Tested it on Apple iPhone, iPad, so on
 
-# Please Apple Make MP3 recording on Voice Memo 🙏
+# Please, "Apple" Make MP3 recording on Voice Memo 🙏
