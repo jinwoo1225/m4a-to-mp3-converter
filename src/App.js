@@ -23,9 +23,11 @@ function App() {
 
         const fileName = name.split('.').slice(0, -1).join('.')
 
-        await ffmpeg.run('-i', name, "-c:v", "copy", "-c:a", "libmp3lame", "-q:a", "4", fileName+'.mp3')
+        const outputFileNameWithExtension = fileName+'.mp3'
 
-        const data = ffmpeg.FS('readFile', 'output.mp3')
+        await ffmpeg.run('-i', name, "-c:v", "copy", "-c:a", "libmp3lame", "-q:a", "4", )
+
+        const data = ffmpeg.FS('readFile', outputFileNameWithExtension)
 
         const url = URL.createObjectURL(new Blob([data.buffer], {type: 'audio/mp3'}))
 
