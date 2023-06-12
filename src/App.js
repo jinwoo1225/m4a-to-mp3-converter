@@ -25,7 +25,7 @@ function App() {
 
         const outputFileNameWithExtension = fileName+'.mp3'
 
-        await ffmpeg.run('-i', name, "-c:v", "copy", "-c:a", "libmp3lame", "-q:a", "4", )
+        await ffmpeg.run('-i', name, "-c:v", "copy", "-c:a", "libmp3lame", "-q:a", "4", outputFileNameWithExtension)
 
         const data = ffmpeg.FS('readFile', outputFileNameWithExtension)
 
