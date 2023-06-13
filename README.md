@@ -1,19 +1,19 @@
 # M4A to MP3 Converter
 
-- That's it
-- Try it 
-- https://m4a-to-mp3-converter.vercel.app
+- That's it.
+- Try it.
+- [https://m4a-to-mp3-converter.vercel.app](https://m4a-to-mp3-converter.vercel.app)
 
 # Powered By WASM
 
 - Here's a [Link](https://github.com/ffmpegwasm/ffmpeg.wasm)
 
-# No Server Side Converting, Only Run in Client Side
+# No Server-Side Converting, Only Runs on Client Side
 
-- I hate ad bombed site with converter run in server side. So I made it.
+- I hate ad-bombed sites with converters that run on the server side. So I made it.
 
-# Runs on Apple Device
+# Runs on Apple Devices
 
-- Tested it on Apple iPhone, iPad, so on
+- Tested it on Apple iPhone, iPad, and so on.
 
-# Please, "Apple" Make MP3 recording on Voice Memo 🙏
+# Please, "Apple," Make MP3 recording available on Voice Memo 🙏
